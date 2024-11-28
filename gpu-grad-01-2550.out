@@ -1,0 +1,81 @@
+Train set shape: (36308, 3)
+Validation set shape: (4548, 3)
+Test set shape: (4590, 3)
+Model: /opt/models/bert-base-uncased
+Accuracy: 0.0163
+
+Classification Report:
+                precision    recall  f1-score   support
+
+    admiration       0.00      0.00      0.00       348
+     amusement       0.00      0.00      0.00       186
+         anger       0.00      0.00      0.00       131
+     annoyance       0.00      0.00      0.00       194
+      approval       0.00      0.00      0.00       236
+        caring       0.00      0.00      0.00        86
+     confusion       0.00      0.00      0.00        97
+     curiosity       0.00      0.00      0.00       176
+        desire       0.01      0.05      0.02        56
+disappointment       0.02      0.73      0.04        88
+   disapproval       0.00      0.00      0.00       195
+       disgust       0.00      0.00      0.00        76
+ embarrassment       0.01      0.22      0.01        23
+    excitement       0.00      0.00      0.00        57
+          fear       0.00      0.00      0.00        65
+     gratitude       0.00      0.00      0.00       260
+         grief       0.00      0.00      0.00         2
+           joy       0.25      0.01      0.02        93
+          love       0.00      0.00      0.00       160
+   nervousness       0.00      0.00      0.00        12
+      optimism       0.00      0.00      0.00       107
+         pride       0.00      0.00      0.00         7
+   realization       0.01      0.02      0.01        89
+        relief       0.00      0.00      0.00         7
+       remorse       0.00      0.00      0.00        44
+       sadness       0.00      0.00      0.00       102
+      surprise       0.00      0.00      0.00        87
+       neutral       0.00      0.00      0.00      1606
+
+      accuracy                           0.02      4590
+     macro avg       0.01      0.04      0.00      4590
+  weighted avg       0.01      0.02      0.00      4590
+
+Model: /opt/models/distilgpt2
+Accuracy: 0.0187
+
+Classification Report:
+                precision    recall  f1-score   support
+
+    admiration       0.00      0.00      0.00       348
+     amusement       0.00      0.00      0.00       186
+         anger       0.00      0.00      0.00       131
+     annoyance       0.00      0.00      0.00       194
+      approval       0.00      0.00      0.00       236
+        caring       0.02      1.00      0.04        86
+     confusion       0.00      0.00      0.00        97
+     curiosity       0.00      0.00      0.00       176
+        desire       0.00      0.00      0.00        56
+disappointment       0.00      0.00      0.00        88
+   disapproval       0.00      0.00      0.00       195
+       disgust       0.00      0.00      0.00        76
+ embarrassment       0.00      0.00      0.00        23
+    excitement       0.00      0.00      0.00        57
+          fear       0.00      0.00      0.00        65
+     gratitude       0.00      0.00      0.00       260
+         grief       0.00      0.00      0.00         2
+           joy       0.00      0.00      0.00        93
+          love       0.00      0.00      0.00       160
+   nervousness       0.00      0.00      0.00        12
+      optimism       0.00      0.00      0.00       107
+         pride       0.00      0.00      0.00         7
+   realization       0.00      0.00      0.00        89
+        relief       0.00      0.00      0.00         7
+       remorse       0.00      0.00      0.00        44
+       sadness       0.00      0.00      0.00       102
+      surprise       0.00      0.00      0.00        87
+       neutral       0.00      0.00      0.00      1606
+
+      accuracy                           0.02      4590
+     macro avg       0.00      0.04      0.00      4590
+  weighted avg       0.00      0.02      0.00      4590
+

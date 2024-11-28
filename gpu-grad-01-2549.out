@@ -1,0 +1,53 @@
+Train set shape: (36308, 3)
+Validation set shape: (4548, 3)
+Test set shape: (4590, 3)
+Model: /opt/models/bert-base-uncased
+Text: Man up and get yourself a date with a different woman.
+True emotion: neutral
+Predicted emotion: excitement
+---
+Model: /opt/models/bert-base-uncased
+Text: Haha I didnt even notice. I guess it does.
+True emotion: amusement
+Predicted emotion: gratitude
+---
+Model: /opt/models/bert-base-uncased
+Text: Omg yes!
+True emotion: approval
+Predicted emotion: excitement
+---
+Model: /opt/models/bert-base-uncased
+Text: It really do be like that sometimes
+True emotion: neutral
+Predicted emotion: pride
+---
+Model: /opt/models/bert-base-uncased
+Text: You’re an inspiration
+True emotion: admiration
+Predicted emotion: pride
+---
+Model: /opt/models/distilgpt2
+Text: That’s great! I hope s/he gets better!
+True emotion: admiration
+Predicted emotion: approval
+---
+Model: /opt/models/distilgpt2
+Text: Wer was u wen sec is kill
+True emotion: curiosity
+Predicted emotion: approval
+---
+Model: /opt/models/distilgpt2
+Text: What kind of frankenshoe...
+True emotion: curiosity
+Predicted emotion: approval
+---
+Model: /opt/models/distilgpt2
+Text: So where are all these [NAME] lining up to be landscapers and farmhands for minimum wage?
+True emotion: neutral
+Predicted emotion: approval
+---
+Model: /opt/models/distilgpt2
+Text: Did anyone else read this and say "Fuck yeah!"?
+True emotion: annoyance
+Predicted emotion: approval
+---
