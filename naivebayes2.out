@@ -1,0 +1,9 @@
+Train set shape: (36308, 3)
+Validation set shape: (4548, 3)
+Test set shape: (4590, 3)
+Shape of Naive Bayes features - Train: (36308, 24311)
+Shape of Naive Bayes features - Validation: (4548, 24311)
+Shape of Naive Bayes features - Test: (4590, 24311)
+Best alpha: 0.206914
+Best validation score: 0.4670
+Test score with best alpha: 0.4621

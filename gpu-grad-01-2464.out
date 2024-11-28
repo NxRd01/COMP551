@@ -1,0 +1,7 @@
+Train set shape: (36308, 3)
+Validation set shape: (4548, 3)
+Test set shape: (4590, 3)
+Model: /opt/models/bert-base-uncased, Test Accuracy:0.0011
+Model: /opt/models/distilgpt2, Test Accuracy:0.0000
+{'Model': PosixPath('/opt/models/bert-base-uncased'), 'Test Accuracy': '0.0011'}
+{'Model': PosixPath('/opt/models/distilgpt2'), 'Test Accuracy': '0.0000'}
