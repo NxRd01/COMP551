@@ -240,9 +240,9 @@ def evaluate_test_set(model, test_loader, device):
 
 # Hyperparameters
 hyperparameters = {
-    'learning_rate': 1e-5,
+    'learning_rate': 2e-5,
     'num_epochs': 10,
-    'batch_size': 16,
+    'batch_size': 32,
     'max_length': 128,
     'warmup_steps': 100,
     'weight_decay': 0.01

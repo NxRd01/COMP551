@@ -1,0 +1,214 @@
+Train set shape: (36308, 3)
+Validation set shape: (4548, 3)
+Test set shape: (4590, 3)
+Training BERT classifier...
+
+Epoch 1:
+Average Training Loss: 1.7708
+Average Validation Loss: 1.3600
+Training Accuracy: 0.5340
+Validation Accuracy: 0.6082
+New best validation accuracy: 0.6082
+
+Epoch 2:
+Average Training Loss: 1.2457
+Average Validation Loss: 1.2732
+Training Accuracy: 0.6392
+Validation Accuracy: 0.6214
+New best validation accuracy: 0.6214
+
+Epoch 3:
+Average Training Loss: 1.0330
+Average Validation Loss: 1.3111
+Training Accuracy: 0.6917
+Validation Accuracy: 0.6143
+
+Epoch 4:
+Average Training Loss: 0.8489
+Average Validation Loss: 1.4051
+Training Accuracy: 0.7465
+Validation Accuracy: 0.6102
+
+Epoch 5:
+Average Training Loss: 0.6786
+Average Validation Loss: 1.5185
+Training Accuracy: 0.7976
+Validation Accuracy: 0.5959
+
+Epoch 6:
+Average Training Loss: 0.5442
+Average Validation Loss: 1.6594
+Training Accuracy: 0.8424
+Validation Accuracy: 0.5796
+
+Epoch 7:
+Average Training Loss: 0.4363
+Average Validation Loss: 1.7636
+Training Accuracy: 0.8767
+Validation Accuracy: 0.5794
+
+Epoch 8:
+Average Training Loss: 0.3529
+Average Validation Loss: 1.8942
+Training Accuracy: 0.9029
+Validation Accuracy: 0.5796
+
+Epoch 9:
+Average Training Loss: 0.2983
+Average Validation Loss: 1.9657
+Training Accuracy: 0.9180
+Validation Accuracy: 0.5750
+
+Epoch 10:
+Average Training Loss: 0.2626
+Average Validation Loss: 1.9918
+Training Accuracy: 0.9304
+Validation Accuracy: 0.5752
+
+Test Set Results:
+Test Accuracy: 0.5878
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.67      0.74      0.71       348
+           1       0.76      0.87      0.81       186
+           2       0.54      0.50      0.52       131
+           3       0.28      0.29      0.28       194
+           4       0.37      0.39      0.38       236
+           5       0.41      0.42      0.42        86
+           6       0.36      0.41      0.38        97
+           7       0.45      0.51      0.48       176
+           8       0.61      0.45      0.52        56
+           9       0.33      0.31      0.32        88
+          10       0.40      0.44      0.42       195
+          11       0.49      0.53      0.51        76
+          12       0.55      0.52      0.53        23
+          13       0.38      0.49      0.43        57
+          14       0.73      0.74      0.73        65
+          15       0.93      0.88      0.90       260
+          16       0.00      0.00      0.00         2
+          17       0.59      0.62      0.60        93
+          18       0.77      0.87      0.82       160
+          19       0.43      0.50      0.46        12
+          20       0.55      0.60      0.57       107
+          21       0.50      0.14      0.22         7
+          22       0.19      0.16      0.17        89
+          23       0.50      0.43      0.46         7
+          24       0.65      0.75      0.69        44
+          25       0.57      0.59      0.58       102
+          26       0.55      0.52      0.53        87
+          27       0.67      0.61      0.64      1606
+
+    accuracy                           0.59      4590
+   macro avg       0.51      0.51      0.50      4590
+weighted avg       0.59      0.59      0.59      4590
+
+
+Training GPT-2 classifier...
+
+Epoch 1:
+Average Training Loss: 2.4357
+Average Validation Loss: 2.0635
+Training Accuracy: 0.4020
+Validation Accuracy: 0.5009
+New best validation accuracy: 0.5009
+
+Epoch 2:
+Average Training Loss: 1.8445
+Average Validation Loss: 1.6080
+Training Accuracy: 0.5073
+Validation Accuracy: 0.5644
+New best validation accuracy: 0.5644
+
+Epoch 3:
+Average Training Loss: 1.5969
+Average Validation Loss: 1.4691
+Training Accuracy: 0.5573
+Validation Accuracy: 0.5910
+New best validation accuracy: 0.5910
+
+Epoch 4:
+Average Training Loss: 1.4628
+Average Validation Loss: 1.4300
+Training Accuracy: 0.5845
+Validation Accuracy: 0.5937
+New best validation accuracy: 0.5937
+
+Epoch 5:
+Average Training Loss: 1.3818
+Average Validation Loss: 1.3859
+Training Accuracy: 0.6041
+Validation Accuracy: 0.6029
+New best validation accuracy: 0.6029
+
+Epoch 6:
+Average Training Loss: 1.3153
+Average Validation Loss: 1.3760
+Training Accuracy: 0.6169
+Validation Accuracy: 0.6053
+New best validation accuracy: 0.6053
+
+Epoch 7:
+Average Training Loss: 1.2719
+Average Validation Loss: 1.3617
+Training Accuracy: 0.6256
+Validation Accuracy: 0.5996
+
+Epoch 8:
+Average Training Loss: 1.2388
+Average Validation Loss: 1.3593
+Training Accuracy: 0.6331
+Validation Accuracy: 0.6022
+
+Epoch 9:
+Average Training Loss: 1.2134
+Average Validation Loss: 1.3597
+Training Accuracy: 0.6403
+Validation Accuracy: 0.6042
+
+Epoch 10:
+Average Training Loss: 1.1955
+Average Validation Loss: 1.3552
+Training Accuracy: 0.6455
+Validation Accuracy: 0.6049
+
+Test Set Results:
+Test Accuracy: 0.6022
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.64      0.75      0.69       348
+           1       0.75      0.84      0.80       186
+           2       0.37      0.49      0.42       131
+           3       0.27      0.16      0.20       194
+           4       0.48      0.35      0.40       236
+           5       0.33      0.35      0.34        86
+           6       0.42      0.40      0.41        97
+           7       0.43      0.62      0.51       176
+           8       0.59      0.43      0.49        56
+           9       0.41      0.15      0.22        88
+          10       0.42      0.40      0.41       195
+          11       0.44      0.43      0.44        76
+          12       0.00      0.00      0.00        23
+          13       0.55      0.32      0.40        57
+          14       0.63      0.72      0.67        65
+          15       0.93      0.90      0.91       260
+          16       0.00      0.00      0.00         2
+          17       0.58      0.65      0.61        93
+          18       0.72      0.93      0.81       160
+          19       0.00      0.00      0.00        12
+          20       0.64      0.59      0.61       107
+          21       0.00      0.00      0.00         7
+          22       0.60      0.03      0.06        89
+          23       0.00      0.00      0.00         7
+          24       0.62      0.82      0.71        44
+          25       0.50      0.54      0.52       102
+          26       0.46      0.53      0.49        87
+          27       0.66      0.70      0.68      1606
+
+    accuracy                           0.60      4590
+   macro avg       0.44      0.43      0.42      4590
+weighted avg       0.59      0.60      0.58      4590
+
