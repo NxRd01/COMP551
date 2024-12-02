@@ -12,4 +12,4 @@
 module load cuda/cuda-12.6
 module load miniconda/miniconda-fall2024
 
-python a4_finetunedllm.py
+python a4_baselinemodels.py

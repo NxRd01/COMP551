@@ -1,9 +1,9 @@
 import numpy as np
 import pandas as pd
-from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, classification_report
 import matplotlib.pyplot as plt
 from datasets import load_dataset
 
@@ -51,7 +51,7 @@ print("Shape of baseline features - Test:", X_test_baseline.shape)
 
 # Define models with their default settings
 models = {
-    'SVC': SVC(),
+    'Softmax Regression': LogisticRegression(multi_class='multinomial', solver='lbfgs'),
     'Random Forest': RandomForestClassifier(),
     'XGBoost': GradientBoostingClassifier()
 }
@@ -80,7 +80,11 @@ for name, model in models.items():
         'Test Accuracy': f'{test_acc:.4f}',
     })
     
-    print(name,str(model.get_params()))
+    print(f"\n{name} - Model Parameters:")
+    print(str(model.get_params()))
+    
+    print(f"\n{name} - Classification Report (Test Set):")
+    print(classification_report(y_test_baseline, test_pred, target_names=emotion_labels))
 
 # Create a DataFrame from the results
 df_results = pd.DataFrame(results)
